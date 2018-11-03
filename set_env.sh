@@ -14,6 +14,7 @@ APIServices=(
 # RESOURCE_API
 # NODE_ENV
 # SECRET_TOKEN
+# Note items in the APIServices array are separated by a new line.
 )
 
 # Loop through each API service and prompt the user for a key
