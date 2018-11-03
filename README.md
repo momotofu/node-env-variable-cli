@@ -1,4 +1,4 @@
-# Set local environment variables
+# Set Node local environment variables
 A command line tool for Node.js to export a list of environment key value pairs to
 an export.sh file; which can then be used as a part of a development
 script to set local environment variables.
