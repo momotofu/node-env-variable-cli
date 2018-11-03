@@ -17,5 +17,4 @@ has entered all the required values, an `exports.sh` file will be generated.
    ```javascript
      "scripts": {
          "dev": "source exports.sh; concurrently --kill-others \"webpack-dev-server --mode=development --progress --colors --port 2992\" \"NODE_ENV=development nodemon ./src/backend/app.js\"",
-      }
-```
+      }```
