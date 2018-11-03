@@ -13,3 +13,9 @@ environment variable key and prompt for the associated value. When user
 has entered all the required values, an `exports.sh` file will be generated.
 4. To export local environment variables add `source exports.sh` to your
    dev script in your `package.json` file.
+   
+   ```javascript
+     "scripts": {
+    "dev": "source exports.sh; concurrently --kill-others \"webpack-dev-server --mode=development --progress --colors --port 2992\" \"NODE_ENV=development nodemon ./src/backend/app.js\"",
+      }
+```
